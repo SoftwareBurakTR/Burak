@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header style="text-align: center;">
+        <nav>
+            <ul >
+                <li>Home</li>
+                <li>Profile</li>
+                <li>Plans</li>
+                <li>Options</li>
+                <li>Contact</li>
+                <li><a href="#Privacy">Privacy</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="Hero-Content">
+        <div id="sol" onclick="onceki()">
+            <span>&#10094</span>
+        </div>
+        <div class="slider">
+            <img src="WhatsApp Image 2024-10-08 at 10.42.54.jpeg">
+            <img src="WhatsApp Image 2024-10-08 at 10.43.59.jpeg">
+            <img src="WhatsApp Image 2024-10-08 at 10.45.25.jpeg">
+            <img src="WhatsApp Image 2024-10-08 at 10.53.18.jpeg">
+            <img src="WhatsApp Image 2024-10-08 at 10.56.45.jpeg">
+        </div>
+        <div id="sag" onclick="sonraki()">
+            <span>&#10095</span>
+        </div>      
+    </section>
+    <section class="Intro">
+        <p>I design websites for you. I'm here to help you with your website needs.</p>
+    </section>
+    <hr>
+    <footer class="contact">
+        <h1>Contact Me</h1>
+        <form method="POST" onsubmit="return confirm("Yazdığın verilerin benimle paylaşılsın mı?");">
+        <input required type="text" placeholder="Name">
+        <input required type="text" placeholder="Surname">
+        <br>
+        <textarea cols="50" placeholder="Write your message here..."></textarea>
+        <div class="button-container">
+            <button type="submit">Send</button>
+            <button type="reset">Reset</button>
+        </div> 
+        </form>
+    </footer>
+    <hr>
+    <h1 id="Privacy">Privacy Policy</h1>
+    <p style="font: size 30px;">Bütün Haklarım Saklıdır.</p>
+    <span style="font-size: larger;">©Copyrights 2024 - SoftwareBurakTR</span>
+    <script src="index.js"></script>
+</body>
+</html>

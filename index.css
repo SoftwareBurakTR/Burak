@@ -1,0 +1,101 @@
+body{
+    color: aliceblue; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    background-color: rgb(22, 22, 22);
+}
+a{
+    text-decoration: none;
+    color: #4CAF50;
+}
+@media (max-width: 52rem) {
+    ul {
+        color: blue;
+        display: grid;
+    }
+    li {
+        display: block;
+        font-size: large;
+        margin-right: 0;
+        border: 1px solid #4CAF50;
+        padding: 10px;
+    }
+    h2 {
+        color: red;
+    }
+}
+ul{
+    color: #4CAF50;
+}
+hr{
+    border: dashed;
+    color: aliceblue;
+}
+li{
+    font-size: x-large;
+    display: inline;
+    margin-right: 1rem;
+    border: 2px solid #4CAF50;
+    padding:15px;
+}
+li:hover{
+    color: white;
+    background-color: rgba(114, 108, 108, 0.11);;
+}
+h1{
+    text-align: center;
+    color: #4CAF50;
+}
+.contact > *{
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+}
+.contact button {
+    border-radius: 10px;
+    width:100%;
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 15px 20px; /* Padding */
+    border: none; /* Remove borders */
+    cursor: pointer; /* Pointer/hand icon */
+    width: auto; /* Auto width */
+    font-size: 16px; /* Increase font size */
+    display: inline; 
+    margin: 0 auto; /* Center align */
+}
+.contact input {
+    border-radius: 6px;
+    font-size:x-large;
+}
+.contact button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+.form{
+    color: black;
+}
+#sag,#sol {
+    display: inline-block;
+    padding: 10px;
+    font-size: x-large;
+    border: 2px solid #45a049;
+    color: #45a049;
+}
+.Hero-Content img{
+display: none;
+width: 100%;
+height: 25rem;
+}
+img.Display-Slide{
+ display: block;
+}
+.Hero-Content div{
+    display: inline-block;
+}
+textarea{
+    font-size: x-large; 
+    border-radius: 8px;
+    width:100%; 
+    height:9.375rem;
+}
+p{
+    font-size: larger;
+}
